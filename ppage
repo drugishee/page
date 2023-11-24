@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ваш товар</title>
+    <style>
+        /* Добавьте стили CSS здесь */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        section {
+            max-width: 600px;
+            margin: 2em auto;
+            padding: 2em;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 1em 2em;
+            font-size: 1em;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Ваш товар</h1>
+    </header>
+
+    <section>
+        <h2>Описание товара</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod justo nec est ultrices, et venenatis justo euismod.</p>
+
+        <h3>Цена: $99.99</h3>
+
+        <button onclick="buy()">Купить</button>
+    </section>
+
+    <script>
+        // Добавьте скрипты JavaScript здесь
+        function buy() {
+            alert("Спасибо за покупку!");
+        }
+    </script>
+
+</body>
+</html>
